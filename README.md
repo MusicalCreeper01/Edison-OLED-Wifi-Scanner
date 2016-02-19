@@ -17,6 +17,8 @@ This is intended for use with the Intel Edison and the Sparkfun OLED block (http
 
 Once you run the program it will take a few seconds to scan the nearby accesses points, and then it will display them on the screen. You can use up A and B to scroll through the scanned WiFi access points, and joystick select to re-scan. 
 
+The display shows the info for what chanel the WiFi is using, the frequency it's running at, the connection quality, and the SSID/name of the access point.
+
 #Credits
 
 The contents of the sparkfun folder is created by Sparkfun, with a few modifications by me to fix some errors. 
