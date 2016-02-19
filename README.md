@@ -1,12 +1,18 @@
 # Edison-OLED-Wifi-Scanner
-This app scans all the nearby avaliable WiFi access points, gets the data for them, and displays it on the screen. 
+This app scans all the nearby available WiFi access points, gets the data for them, and displays it on the screen. 
+
+#Installation
+
+Either you can download this whole repository and compile it from source in the Intel IoT version of Eclipse, or you can download the compiled program with wget on the Edison
+
+`wget icodethings.info/uploads/Wifi_Scanner.o`
+
+And then run it with
+
+`./Wifi_Scanner.o`
 
 # Usage
 
-This is intended for use with the Intel Edison and the Sparkfun OLED block (https://www.sparkfun.com/products/13035), although I daresay it could easilly be adapted to run on other Linux-based SoCs, and to work with other displays. 
+This is intended for use with the Intel Edison and the Sparkfun OLED block (https://www.sparkfun.com/products/13035), although I daresay it could easily be adapted to run on other Linux-based SoCs, and to work with other displays. 
 
-You need to open this as a project in the Intel IoT version of Eclipse. 
-
-Run the program, and it will take a few seconds to scan the nearby acesses points, and then when it displays the info you can use up and down on the joystick to scroll up and down through the avaliable data, A and B to scroll through the scanned WiFi access points, and joystick select to re-scan. 
-
-
+Once you run the program it will take a few seconds to scan the nearby accesses points, and then it will display them on the screen. You can use up A and B to scroll through the scanned WiFi access points, and joystick select to re-scan. 
